@@ -1,5 +1,5 @@
 ### FrontBasicGuide
-前端知识体系总结，温故而知新；
+前端知识点总结，温故而知新；
 
 #### 项目框架
 + 技术栈：使用docsify框架建立;[docusify官方文档](https://docsify.js.org/#/quickstart)
