@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node getSideBarsFromPages.js && docsify serve"
+    "dev": "docsify serve"
   },
   "keywords": [
     "前端知识点"

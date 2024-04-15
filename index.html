@@ -7,15 +7,34 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css" /> -->
+  <!-- <script src="https://unpkg.com/jquery@3.7.1/dist/jquery.js"></script> -->
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">I`m Coming ~~</div>
   <script>
     window.$docsify = {
       name: 'FrontBasicGuide',
       repo: 'https://github.com/lvmengnan/FrontBasicGuide',
       loadSidebar: true,
-      // loadNavbar: true
+      // loadNavbar: true,
+      // alias: {
+      //   '/css/': '/css/AttributeCalculation'
+      // },
+      subMaxLevel: 2,
+      auto2top: true, //切换页面自动回到顶部
+      // autoHeader: true,// 自动添加页眉
+      // basePath: 'ddd', 
+      coverpage: true,
+      themeColor: '#e76c21',
+      onlyCover: true,
+      // coverpage: ['/', '/pages/Css'],
+      // executeScript: true,
+      // routes: {
+      //   '/foo': () => '### 好像没啥用(返回值或者字符串就是一个markdown的文件内容)'
+      // }
     }
   </script>
   <!-- Docsify v4 -->
